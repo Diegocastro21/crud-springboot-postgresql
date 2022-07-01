@@ -1,7 +1,7 @@
-package com.diegocastro.ml.crudpsql.servicio;
+package com.diegocastro.ml.crudpsql.service;
 
-import com.diegocastro.ml.crudpsql.modelo.Persona;
-import com.diegocastro.ml.crudpsql.repositorio.PersonaRepository;
+import com.diegocastro.ml.crudpsql.model.Persona;
+import com.diegocastro.ml.crudpsql.repository.PersonaRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

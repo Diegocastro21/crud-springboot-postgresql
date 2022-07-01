@@ -1,4 +1,4 @@
-package com.diegocastro.ml.crudpsql.modelo;
+package com.diegocastro.ml.crudpsql.model;
 
 import javax.persistence.*;
 
@@ -13,6 +13,8 @@ public class Persona {
     private String nombre;
     private String apellido;
     private String correo;
+
+
 
 
     public Persona() {

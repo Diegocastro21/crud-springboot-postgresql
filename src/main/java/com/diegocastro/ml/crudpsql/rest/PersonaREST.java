@@ -1,8 +1,8 @@
 package com.diegocastro.ml.crudpsql.rest;
 
 
-import com.diegocastro.ml.crudpsql.modelo.Persona;
-import com.diegocastro.ml.crudpsql.servicio.PersonaService;
+import com.diegocastro.ml.crudpsql.model.Persona;
+import com.diegocastro.ml.crudpsql.service.PersonaService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -46,5 +46,7 @@ public class PersonaREST {
     private ResponseEntity<Optional<Persona>> listById(@PathVariable("id") Long id){
         return ResponseEntity.ok(personaService.searchById(id));
     }
+
+
 
 }

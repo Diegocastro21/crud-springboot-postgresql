@@ -10,4 +10,6 @@ public class CrudPsqlApplication {
         SpringApplication.run(CrudPsqlApplication.class, args);
     }
 
+
+
 }
